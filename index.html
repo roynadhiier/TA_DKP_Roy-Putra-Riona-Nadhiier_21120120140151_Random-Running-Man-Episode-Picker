@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Running Man Episode Picker</title>
+    <link rel="stylesheet" href="bootstrap-5.0.1-dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="tambahan.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row text-center">
+        <div class="col">
+          <h1 class="mt-5 mb-5 rounded-pill">Random Running Man Episode Picker</h1>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row justify-content-center text-center">
+        <div class="col-2 form rounded">
+          <form action="hasil.php" method="post" class="">
+            <div class="mt-5 mb-5">
+              <label for="min" class="form-label min">From:</label>
+              <input type="number" name="min" class="form-control" id="min" aria-describedby="min" />
+            </div>
+            <div class="mb-5">
+              <label for="max" class="form-label max">To:</label>
+              <input type="number" name="max" class="form-control" id="max" aria-describedby="max" />
+            </div>
+            <div class="mb-5">
+              <label for="jml" class="form-label jml">How many episodes do you want to watch?</label>
+              <input type="number" name="jml" class="form-control" id="jml" aria-describedby="jml" />
+            </div>
+            <button type="submit" name="submit1" class="btn btn-danger btn-lg">GO!</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
